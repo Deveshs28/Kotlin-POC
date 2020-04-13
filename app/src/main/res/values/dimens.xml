@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero_margin">0dp</dimen>
+    <dimen name="five_margin">5dp</dimen>
+    <dimen name="seven_margin">7dp</dimen>
+    <dimen name="ten_margin">10dp</dimen>
+    <dimen name="fifteen_margin">15dp</dimen>
+    <dimen name="twenty_margn">20dp</dimen>
+    <dimen name="thirty_margn">30dp</dimen>
+
+    <dimen name="fourteen_txt_size">14sp</dimen>
+    <dimen name="sixteen_txt_size">16sp</dimen>
+
+    <dimen name="dimens_iv_item">90dp</dimen>
+    <dimen name="margin_tv_item">16dp</dimen>
+    <dimen name="margin_horizontal">8dp</dimen>
+</resources>

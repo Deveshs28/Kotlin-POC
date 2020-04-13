@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kotlin POC</string>
+    <string name="unknown_class">Unkonwn Class Name</string>
+    <string name="enter_data_label">Enter information to login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login">Login</string>
+</resources>

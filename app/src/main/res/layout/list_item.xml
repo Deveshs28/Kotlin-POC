@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="dataModel"
+            type="com.example.kotlinpoc.data.model.UserResultModel" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_horizontal"
+        android:elevation="@dimen/margin_tv_item"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="@dimen/margin_tv_item">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_item"
+                android:layout_width="@dimen/dimens_iv_item"
+                android:layout_height="@dimen/dimens_iv_item"
+                android:contentDescription="image here"
+                tools:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/tv_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_tv_item"
+                android:gravity="center_vertical"
+                android:text="@{dataModel.name.first}"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fourteen_txt_size" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
